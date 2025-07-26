@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nếu bạn có một container bao quanh main và sidebar, nó cũng cần flex-grow */
+/* Ví dụ: nếu bạn có một div bao quanh <div class="row"> chứa sidebar và main */
+/* .container-fluid > .row {
+    flex-grow: 1;
+} */
+
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* ảnh không méo nhưng có thể cắt */
+}
+
+
+.marketing .icon{
+    width : 140px;
+    height : auto;
+    font-size: 60px;
+    text-align: center;
+    margin : 0 auto;
+}
